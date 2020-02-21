@@ -1,8 +1,10 @@
 {
   "python.jediEnabled": false,
   "[jsonc]": {
-    "editor.defaultFormatter": "HookyQR.beautify"
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
+  "editor.fontFamily": "Fira Code Retina",
+  "editor.fontLigatures": true,
   "editor.fontSize": 15,
   "window.zoomLevel": 0.2,
   "workbench.colorTheme": "Dracula",
@@ -34,5 +36,11 @@
   },
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "editor.suggestSelection": "first",
-  "python.pythonPath": "/home/djansin/Programs/anaconda3/envs/recipe/bin/python"
+  "python.pythonPath": "/home/djansin/Programs/anaconda3/envs/recipe/bin/python",
+  "cSpell.words": [
+    "postgres",
+    "runserver"
+  ],
+  "python.linting.flake8Enabled": true,
+  "python.linting.enabled": true,
 }
